@@ -1,0 +1,172 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    border-top: 2px solid grey;
+    line-height: 0.01px;
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-top: 150px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.bold{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+.child{
+    text-align: center;
+}
+
+.item2{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.item3{
+    font-size: 40px;
+    margin-top: 12%;
+    margin-left: 50%;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding-top: 45px;
+}
+
+.ht{
+    color: #f22c00;
+}
+
+.hr{
+    margin-left: 20%;
+}
+
+.lt{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: line-through;
+    color: #f22c00;
+}
+
+.ct{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.fas{
+    font-size: 40px;
+    color: #f22c00;
+    
+}
+
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbut{
+    font-size: 40px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+
+.back{
+    margin-top: 100px;
+    margin-left: 870px;
+}
+
+.todocard{
+    font-size: 40px;
+    text-align: center;
+    height: 350px;
+    width: 450px;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 15px;
+    margin-left: 730px;
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+.addcard{
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    height: 350px;
+    width: 450px;
+    color: #f22c00;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 730px;
+    margin-top: 300px;
+}
+
+.addbutton{
+    padding-left: 320px;
+    padding-top: 40px;
+}
+
+.hpbg{
+    background-image: url(/Project2/image.jpg);
+    z-index: -1;
+}
+
+.ibg{
+    background-image: url(/Project2/image1.jpg);
+    z-index: -1;
+}
+
+input[type=text]{
+    font-size: 30px;
+    height: 50px;
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+}
+
+input[type=button]{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 50px;
+    background-color: #f22c00;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+}
