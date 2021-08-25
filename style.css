@@ -140,12 +140,12 @@ a{
 }
 
 .hpbg{
-    background-image: url(/Project2/image.jpg);
+    background-image: url(./image.jpg);
     z-index: -1;
 }
 
 .ibg{
-    background-image: url(/Project2/image1.jpg);
+    background-image: url(./image1.jpg);
     z-index: -1;
 }
 
