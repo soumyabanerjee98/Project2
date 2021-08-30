@@ -30,7 +30,7 @@ a{
     grid-template-columns: 300px 300px 300px;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .child{
@@ -59,12 +59,17 @@ a{
     font-size: 30px;
     padding-top: 45px;
 }
+.cardh{
+    display: none;
+}
 
 .ht{
     color: #f22c00;
 }
-
 .hr{
+    margin-left: 20%;
+}
+.hr1{
     margin-left: 20%;
 }
 
@@ -169,4 +174,146 @@ input[type=button]{
     color: white;
     border: 0;
     border-radius: 50px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 380px) {
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        text-align: center;
+        border: none;
+        margin-left: 60px;
+        margin-right: 20px;
+        margin-top: 50px;
+    
+    }
+    .parent{
+        display: grid;
+        grid-template-columns: 300px;
+        margin-left: -16vw;
+        margin-right: 0vw;
+        margin-top: 1%;
+    }
+    .card{
+        text-align: left;
+        height: 50px;
+        width: 250px;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 15px;
+        margin-left: 28vw;
+        margin-bottom: 4vh;
+        font-size: 25px;
+        padding-top: 6px;
+        padding-left: 5px;
+    }
+    .cardh{
+        display: block;
+    }
+    .item2{
+        margin-top: -65px;
+        margin-left: 340px;
+    }
+    .item3{
+        display: none;
+    }
+    .hr{
+        display: none;
+    }
+    .lt{
+        display: none;
+    }
+    .lt1{
+        display: block;
+    }
+    .ct{
+        display: none;
+    }
+    .ct1{
+        display: block;
+    }
+    .ht{
+        color: grey;
+    }
+    .ht1{
+        color: #f22c00;
+    }
+    .heading{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        background-color: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbut{
+        display: none;
+    }
+    .back{
+        margin-top: -7vh;
+        margin-left: 10px;
+    }
+    .todocard{
+        font-size: 30px;
+        text-align: center;
+        height: 350px;
+        width: 250px;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 15px;
+        margin-left: 12vw;
+        margin-top: 15vh;
+        padding-top: 15px;
+    }
+    .addcard{
+        padding-top: 15px;
+        font-size: 22px;
+        text-align: center;
+        height: 170px;
+        width: 300px;
+        color: #f22c00;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 5vw;
+        margin-top: 35vh;
+    }
+    .addbutton{
+        padding-left: 40vw;
+        padding-top: 16vh;
+    }
+    .hpbg{
+        background-image: url(./imagep.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    .ibg{
+        background-image: url(./image1p.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    input[type=text]{
+        font-size: 30px;
+        height: 50px;
+        width: 250px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 10px;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+    }
+    
+    input[type=button]{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+        background-color: #f22c00;
+        color: white;
+        border: 0;
+        border-radius: 50px;
+    }
 }
